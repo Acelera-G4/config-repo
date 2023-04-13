@@ -35,7 +35,7 @@ spring:
           predicates:
             - Method=GET,POST,PUT,DELETE
             - Path=/order/**
-        - id: order
+        - id: orderproduct
           uri: http://localhost:8099
           predicates:
             - Method=GET,POST,PUT,DELETE
