@@ -5,4 +5,4 @@ eureka:
     registerWithEureka: true
     fetchRegistry: false
     serviceUrl:
-      defaultZone: https://acelerag4.svc.azuremicroservices.io/eureka
+      defaultZone: http://localhost:9001/eureka
